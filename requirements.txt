@@ -1,0 +1,9 @@
+
+azureml-defaults 
+tqdm
+pandas==1.1.0
+joblib
+pywikibot
+SPARQLWrapper
+nltk
+sentence_transformers
