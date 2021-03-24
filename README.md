@@ -10,9 +10,7 @@ The goal of this project is to find synonyms, abbreviation and related keywords 
 
 ``` 
 From synonym_finder import *
-#### initialize the synonym finder class
 sf = synonym_finder(bert_model = 'nli-bert-large')
-#### get synonyms and related keywords
 sf.get_synonyms(term = 'Machine learning', source = 'dbpedia', thr = 0.72)
 
 ```
